@@ -2,3 +2,4 @@
 .env
 data/*
 src/rag/__pycache__
+.gitattributes

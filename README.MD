@@ -7,7 +7,7 @@
 2. Install conda and use pyenv
 3. Install python dependencies per `requirements.txt`
 
-### Folder Structure
+#### Folder Structure
 ```
 example-rag/
   README.md
@@ -31,6 +31,14 @@ example-rag/
       prompts.py
       evals.py
       guardrails.py
+```
+
+#### OpenAI Settings for .env folder
+```
+OPENAI_API_KEY=Insert YOUR API Key
+# optional / defaults
+OPENAI_MODEL=gpt-4o-mini
+OPENAI_EMBED_MODEL=text-embedding-3-large
 ```
 
 ### Data Loading, Chunking, and Indexing
